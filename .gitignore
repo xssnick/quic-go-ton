@@ -1,7 +1,6 @@
 debug
 debug.test
 main
-mockgen_tmp.go
 *.qtr
 *.qlog
 *.sqlog
@@ -16,5 +15,3 @@ fuzzing/*/suppressions
 fuzzing/*/corpus/
 
 **/testdata/fuzz/
-
-gomock_reflect_*/
