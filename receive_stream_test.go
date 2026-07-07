@@ -10,10 +10,10 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/monotime"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/xssnick/quic-go-ton/internal/monotime"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/utils"
+	"github.com/xssnick/quic-go-ton/internal/wire"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

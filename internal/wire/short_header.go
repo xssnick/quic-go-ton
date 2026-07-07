@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/utils"
 )
 
 // ParseShortHeader parses a short header packet.

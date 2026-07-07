@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/quicvarint"
 
 	"github.com/stretchr/testify/require"
 )

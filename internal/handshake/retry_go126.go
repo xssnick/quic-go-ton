@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
 )
 
 // used for QUIC v1 (RFC 9000)

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/monotime"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/xssnick/quic-go-ton/internal/monotime"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/wire"
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"

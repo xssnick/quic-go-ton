@@ -2,7 +2,7 @@
 
 package handshake
 
-import "crypto/tls"
+import "github.com/xssnick/quic-go-ton/tls"
 
 const quicErrorEvent tls.QUICEventKind = -1
 

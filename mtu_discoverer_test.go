@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/monotime"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/qlog"
-	"github.com/quic-go/quic-go/testutils/events"
+	"github.com/xssnick/quic-go-ton/internal/monotime"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/utils"
+	"github.com/xssnick/quic-go-ton/qlog"
+	"github.com/xssnick/quic-go-ton/testutils/events"
 
 	"github.com/stretchr/testify/require"
 )

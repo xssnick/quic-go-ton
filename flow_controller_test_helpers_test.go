@@ -1,8 +1,8 @@
 package quic
 
 import (
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/utils"
 )
 
 func newTestStreamFlowController(id protocol.StreamID) *streamFlowController {

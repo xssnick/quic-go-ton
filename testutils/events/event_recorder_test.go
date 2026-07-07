@@ -5,8 +5,8 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/quic-go/quic-go/qlog"
-	"github.com/quic-go/quic-go/qlogwriter"
+	"github.com/xssnick/quic-go-ton/qlog"
+	"github.com/xssnick/quic-go-ton/qlogwriter"
 	"github.com/stretchr/testify/require"
 )
 

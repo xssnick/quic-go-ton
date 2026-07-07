@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/qerr"
+	"github.com/xssnick/quic-go-ton/internal/wire"
 
 	"github.com/stretchr/testify/require"
 )

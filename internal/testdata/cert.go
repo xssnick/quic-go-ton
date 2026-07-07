@@ -1,7 +1,7 @@
 package testdata
 
 import (
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"crypto/x509"
 	"os"
 	"path"

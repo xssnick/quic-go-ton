@@ -3,10 +3,10 @@ package quic
 import (
 	"fmt"
 
-	"github.com/quic-go/quic-go/internal/ackhandler"
+	"github.com/xssnick/quic-go-ton/internal/ackhandler"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/wire"
 )
 
 type framesToRetransmit struct {

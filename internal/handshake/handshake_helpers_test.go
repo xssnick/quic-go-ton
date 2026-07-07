@@ -2,7 +2,7 @@ package handshake
 
 import (
 	"crypto/fips140"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"encoding/hex"
 	"strings"
 	"testing"

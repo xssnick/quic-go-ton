@@ -5,8 +5,8 @@ import (
 	"net/netip"
 	"testing"
 
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/qlog"
+	"github.com/xssnick/quic-go-ton/internal/wire"
+	"github.com/xssnick/quic-go-ton/qlog"
 
 	"github.com/stretchr/testify/require"
 )

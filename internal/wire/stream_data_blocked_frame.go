@@ -1,8 +1,8 @@
 package wire
 
 import (
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/quicvarint"
 )
 
 // A StreamDataBlockedFrame is a STREAM_DATA_BLOCKED frame

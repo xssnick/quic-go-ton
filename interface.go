@@ -2,15 +2,15 @@ package quic
 
 import (
 	"context"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"errors"
 	"net"
 	"slices"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/handshake"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/qlogwriter"
+	"github.com/xssnick/quic-go-ton/internal/handshake"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/qlogwriter"
 )
 
 // The StreamID is the ID of a QUIC stream.

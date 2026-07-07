@@ -6,9 +6,9 @@ package testutils
 import (
 	"fmt"
 
-	"github.com/quic-go/quic-go/internal/handshake"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/xssnick/quic-go-ton/internal/handshake"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/wire"
 )
 
 // writePacket returns a new raw packet with the specified header and payload

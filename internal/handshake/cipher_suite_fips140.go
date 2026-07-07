@@ -13,7 +13,7 @@ import (
 // Once the standard library exposes the necessary constructors, we can use a shared code path
 // for both FIPS 140 and non-FIPS 140 modes.
 //
-//go:linkname cryptoTLSAEAD_AESGCMTLS13 crypto/tls.aeadAESGCMTLS13
+//go:linkname cryptoTLSAEAD_AESGCMTLS13 github.com/xssnick/quic-go-ton/tls.aeadAESGCMTLS13
 func cryptoTLSAEAD_AESGCMTLS13(key, nonceMask []byte) cipher.AEAD
 
 func aeadAESGCMTLS13FIPS140(key, nonceMask []byte) cipher.AEAD {

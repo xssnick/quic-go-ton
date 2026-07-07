@@ -2,7 +2,7 @@ package quic
 
 import (
 	"context"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"net"
 	"runtime"
 	"testing"

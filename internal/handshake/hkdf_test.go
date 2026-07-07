@@ -4,7 +4,7 @@ import (
 	"crypto"
 	"crypto/cipher"
 	"crypto/rand"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"testing"
 	"unsafe"
 

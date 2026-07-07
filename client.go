@@ -2,11 +2,11 @@ package quic
 
 import (
 	"context"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"errors"
 	"net"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
 )
 
 // make it possible to mock connection ID for initial generation in the tests

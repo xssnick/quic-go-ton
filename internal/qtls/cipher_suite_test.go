@@ -2,12 +2,12 @@ package qtls
 
 import (
 	"crypto/fips140"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"fmt"
 	"net"
 	"testing"
 
-	"github.com/quic-go/quic-go/internal/testdata"
+	"github.com/xssnick/quic-go-ton/internal/testdata"
 
 	"github.com/stretchr/testify/require"
 )

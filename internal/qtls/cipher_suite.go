@@ -1,18 +1,18 @@
 package qtls
 
 import (
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"fmt"
 	"unsafe"
 )
 
-//go:linkname cipherSuitesTLS13 crypto/tls.cipherSuitesTLS13
+//go:linkname cipherSuitesTLS13 github.com/xssnick/quic-go-ton/tls.cipherSuitesTLS13
 var cipherSuitesTLS13 []unsafe.Pointer
 
-//go:linkname defaultCipherSuitesTLS13 crypto/tls.defaultCipherSuitesTLS13
+//go:linkname defaultCipherSuitesTLS13 github.com/xssnick/quic-go-ton/tls.defaultCipherSuitesTLS13
 var defaultCipherSuitesTLS13 []uint16
 
-//go:linkname defaultCipherSuitesTLS13NoAES crypto/tls.defaultCipherSuitesTLS13NoAES
+//go:linkname defaultCipherSuitesTLS13NoAES github.com/xssnick/quic-go-ton/tls.defaultCipherSuitesTLS13NoAES
 var defaultCipherSuitesTLS13NoAES []uint16
 
 var cipherSuitesModified bool

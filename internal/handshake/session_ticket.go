@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/xssnick/quic-go-ton/internal/wire"
+	"github.com/xssnick/quic-go-ton/quicvarint"
 )
 
 const sessionTicketRevision = 5

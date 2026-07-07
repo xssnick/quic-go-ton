@@ -5,7 +5,7 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 	"crypto/fips140"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"fmt"
 
 	"golang.org/x/crypto/chacha20poly1305"

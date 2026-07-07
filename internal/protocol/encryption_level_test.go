@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"testing"
 
 	"github.com/stretchr/testify/require"

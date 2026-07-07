@@ -11,7 +11,7 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/quic-go/quic-go/qlogwriter/jsontext"
+	"github.com/xssnick/quic-go-ton/qlogwriter/jsontext"
 
 	"github.com/stretchr/testify/require"
 )

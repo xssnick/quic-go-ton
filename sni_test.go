@@ -4,15 +4,15 @@ import (
 	"context"
 	"crypto/ecdh"
 	"crypto/rand"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"encoding/binary"
 	"fmt"
 	"io"
 	mrand "math/rand/v2"
 	"testing"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/testdata"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/testdata"
 	"golang.org/x/crypto/cryptobyte"
 
 	"github.com/stretchr/testify/assert"

@@ -2,11 +2,11 @@ package handshake
 
 import (
 	"crypto/rand"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"fmt"
 	"testing"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
 
 	"github.com/stretchr/testify/require"
 )

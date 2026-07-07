@@ -3,10 +3,10 @@ package handshake
 import (
 	"crypto"
 	"crypto/hkdf"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"fmt"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
 )
 
 var (

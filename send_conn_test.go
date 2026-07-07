@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/utils"
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"

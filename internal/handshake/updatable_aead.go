@@ -3,17 +3,17 @@ package handshake
 import (
 	"crypto"
 	"crypto/cipher"
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"encoding/binary"
 	"fmt"
 	"sync/atomic"
 
-	"github.com/quic-go/quic-go/internal/monotime"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/qlog"
-	"github.com/quic-go/quic-go/qlogwriter"
+	"github.com/xssnick/quic-go-ton/internal/monotime"
+	"github.com/xssnick/quic-go-ton/internal/protocol"
+	"github.com/xssnick/quic-go-ton/internal/qerr"
+	"github.com/xssnick/quic-go-ton/internal/utils"
+	"github.com/xssnick/quic-go-ton/qlog"
+	"github.com/xssnick/quic-go-ton/qlogwriter"
 )
 
 var keyUpdateInterval atomic.Uint64

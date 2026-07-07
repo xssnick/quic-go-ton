@@ -3,7 +3,7 @@
 package handshake
 
 import (
-	"crypto/tls"
+	"github.com/xssnick/quic-go-ton/tls"
 	"net"
 )
 
