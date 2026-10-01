@@ -1,15 +1,16 @@
-//go:build !go1.27
-
 package handshake
 
 import (
-	"github.com/xssnick/quic-go-ton/tls"
 	"net"
+
+	"github.com/xssnick/quic-go-ton/tls"
 )
 
+// These helpers target the bundled TLS fork, whose API is independent of the Go toolchain version.
 func setupConfigForClient(conf *tls.Config) *tls.Config {
 	conf = conf.Clone()
 	conf.MinVersion = tls.VersionTLS13
+
 	return conf
 }
 
@@ -36,6 +37,7 @@ func setupConfigForServer(conf *tls.Config, localAddr, remoteAddr net.Addr) *tls
 			return c, err
 		}
 	}
+
 	if conf.GetCertificate != nil {
 		gc := conf.GetCertificate
 		conf.GetCertificate = func(info *tls.ClientHelloInfo) (*tls.Certificate, error) {
@@ -43,6 +45,7 @@ func setupConfigForServer(conf *tls.Config, localAddr, remoteAddr net.Addr) *tls
 			return gc(info)
 		}
 	}
+
 	return conf
 }
 

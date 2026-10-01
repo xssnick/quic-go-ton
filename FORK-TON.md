@@ -20,6 +20,9 @@ The whole stack stays **pure Go** — no cgo, no OpenSSL.
    type. They are not needed for a raw QUIC transport.
 4. Requires **Go 1.26** (the vendored `crypto/tls` uses 1.26 stdlib APIs such as
    `crypto/hkdf`, `crypto/hpke`, `errors.AsType`).
+5. Handshake configuration in `internal/handshake/tls_config.go` always targets
+   the bundled TLS API, regardless of the Go toolchain version. Do not restore
+   upstream toolchain-version build tags for these helpers.
 
 ## Using raw public keys
 
